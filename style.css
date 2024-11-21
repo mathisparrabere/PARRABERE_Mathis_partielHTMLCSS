@@ -91,7 +91,12 @@ header{
 }
 
 #button{
-    background-image:url(./images/holiday.jpg)
+    background-image:url(./images/holiday.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:50vh;
 }
 
 button{
@@ -101,13 +106,15 @@ button{
     color:white;
     border-radius: 10px;
     border-width: 2px;
-    border-style: solid white 15px;
+    border: solid white 5%;
     padding: 10px 20px;
 }
 
 button:hover{
     background-color:white;
     color:#6a3460;
+    transform:scale(1.50);
+    transition-duration: 1s;
 }
 
 footer{
@@ -129,5 +136,7 @@ footer{
 
     #choix{
         display:block;
+        width:100%;
     }
+
 }
