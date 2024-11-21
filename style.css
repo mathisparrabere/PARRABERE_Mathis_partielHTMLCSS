@@ -16,6 +16,29 @@ body{
     font-weight: 400;
 }
 
+#hero_section{
+    width:100%;
+}
+
+#santorini{
+    width:100%;
+    position:relative;
+}
+
+#font_style{
+    font-family: "Oleo Script", serif;
+    font-optical-sizing: 400;
+    font-weight: 400;
+    font-size:20px;
+    color:white;
+}
+
+#slogan{
+    background:#6a3460;
+    width:15%;
+    position:absolute;
+}
+
 header{
     width:100%;
     margin:0px;
@@ -30,14 +53,9 @@ header{
     }
 
     #navigation{
-        width:109.09px;
-        height:100px;
-        left:110px;
+        width:25%;
+        margin-left:75%;
     }
-}
-
-#main_container{
-    display:flex;
 }
 
 #choix_section{
@@ -60,8 +78,23 @@ header{
     left:112px;
 }
 
+#button{
+    background-image:url(./images/holiday.jpg)
+}
+
+button{
+    margin:10%;
+    font-size:120%;
+    background-color:#6a3460;
+    color:white;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid white 15px;
+    padding: 10px 20px;
+}
+
 footer{
     width:100%;
     margin:0px;
-    color:white;
+    background-color: #6a3460;
 }
