@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Dosis:wght@200..800&family=Oleo+Script:wght@400;700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    width:100%;
+    margin:0px;
+    height:100vh;
+    color:black;
+}
+
+header{
+    width:100%;
+    margin:0px;
+    background-color: #6a3460;
+    color:white;
+    display:flex;
+
+    #logo{
+        width:109.09px;
+        height:100px;
+        left:110px;
+    }
+
+    #navigation{
+        width:109.09px;
+        height:100px;
+        left:110px;
+    }
+}
+
+#main_container{
+    display:flex;
+}
+
+#choix_section{
+    background-color: #E4DCE2;
+    width:70%;
+}
+
+#choix{
+    width:70%;
+    display:flex;
+    gap:20%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.img_choix {
+    margin-left:15%;
+    margin-right:15%;
+    width:200px;
+    height:241px;
+    top:881px;
+    left:112px;
+}
+
+footer{
+    width:100%;
+    margin:0px;
+    color:white;
+}
